@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 // [START maps_overlay_hideshow]
+
 // This example adds hide() and show() methods to a custom overlay's prototype.
 // These methods toggle the visibility of the container <div>.
 // overlay to or from the map.

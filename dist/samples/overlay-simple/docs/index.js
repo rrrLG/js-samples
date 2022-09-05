@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 // [START maps_overlay_simple]
+
 // This example creates a custom overlay called USGSOverlay, containing
 // a U.S. Geological Survey (USGS) image of the relevant area on the map.
 // Set the custom overlay object's prototype to a new instance

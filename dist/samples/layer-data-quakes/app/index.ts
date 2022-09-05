@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+
 let map: google.maps.Map;
 
 function initMap(): void {
@@ -100,4 +101,5 @@ declare global {
 }
 window.initMap = initMap;
 window.eqfeed_callback = eqfeed_callback;
+
 export {};

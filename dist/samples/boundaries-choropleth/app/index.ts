@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+
 function initMap() {
     const map = new google.maps.Map(document.getElementById('map') as HTMLElement, {
         center: { lat: 40.76, lng: -101.64 },
@@ -15,6 +16,7 @@ function initMap() {
 
     //@ts-ignore
     const featureLayer = map.getFeatureLayer(google.maps.FeatureType.ADMINISTRATIVE_AREA_LEVEL_1);
+
 
     featureLayer.style = placeFeature => {
 
@@ -95,6 +97,7 @@ function initMap() {
         "Wisconsin": 5895908,
         "Wyoming": 578803,
     };
+
 }
 
 declare global {
@@ -103,4 +106,5 @@ declare global {
     }
 }
 window.initMap = initMap;
+
 export { };

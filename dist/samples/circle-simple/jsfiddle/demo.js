@@ -3,6 +3,7 @@
  * Copyright 2019 Google LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
+
 const citymap = {
   chicago: {
     center: { lat: 41.878, lng: -87.629 },

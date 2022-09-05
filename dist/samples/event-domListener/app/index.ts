@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+
 function initMap(): void {
   const mapDiv = document.getElementById("map") as HTMLElement;
   const map = new google.maps.Map(mapDiv, {
@@ -24,4 +25,5 @@ declare global {
   }
 }
 window.initMap = initMap;
+
 export {};

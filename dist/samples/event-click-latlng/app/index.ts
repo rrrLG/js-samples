@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+
 function initMap() {
   const myLatlng = { lat: -25.363, lng: 131.044 };
 
@@ -20,6 +21,7 @@ function initMap() {
 
   infoWindow.open(map);
 
+
   // Configure the click listener.
   map.addListener("click", (mapsMouseEvent) => {
     // Close the current InfoWindow.
@@ -34,6 +36,7 @@ function initMap() {
     );
     infoWindow.open(map);
   });
+
 }
 
 declare global {
@@ -42,4 +45,5 @@ declare global {
   }
 }
 window.initMap = initMap;
+
 export {};

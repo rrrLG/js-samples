@@ -1,4 +1,10 @@
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
 // eslint-disable no-undef
+
 let map: google.maps.Map;
 
 // Initialize and add the map
@@ -82,4 +88,5 @@ declare global {
   }
 }
 window.initMap = initMap;
+
 export {};

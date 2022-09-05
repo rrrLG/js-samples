@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+
 let panorama: google.maps.StreetViewPanorama;
 
 function initMap(): void {
@@ -73,4 +74,5 @@ declare global {
   }
 }
 window.initMap = initMap;
+
 export {};

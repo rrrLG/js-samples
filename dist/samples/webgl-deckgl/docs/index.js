@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 // [START maps_webgl_deckgl]
+
 let map, webGLOverlay;
 // source: Natural Earth http://www.naturalearthdata.com/ via geojson.xyz
 const AIR_PORTS =

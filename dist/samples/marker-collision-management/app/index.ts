@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 // eslint-disable no-undef
+
 let map: google.maps.Map;
 
 // Initialize and add the map
@@ -72,12 +73,14 @@ function initMap(): void {
     [-122.3378, 47.6095],
   ].map(
     ([lng, lat]: number[], i: number) =>
+
       new google.maps.Marker({
         position: new google.maps.LatLng({ lat, lng }),
         map,
         zIndex: i,
         collisionBehavior: collisionBehavior,
       } as google.maps.MarkerOptions)
+
   );
 }
 
@@ -87,4 +90,5 @@ declare global {
   }
 }
 window.initMap = initMap;
+
 export {};

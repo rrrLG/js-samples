@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 // [START maps_circle_simple]
+
 const citymap = {
   chicago: {
     center: { lat: 41.878, lng: -87.629 },

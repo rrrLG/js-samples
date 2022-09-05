@@ -10,6 +10,7 @@
  * - Set color for fill and stroke of feature polygons.
  */
 
+
 let map: google.maps.Map;
 let countryMenu: HTMLSelectElement;
 let featureMenu: HTMLSelectElement;
@@ -4163,4 +4164,5 @@ declare global {
     }
 }
 window.initMap = initMap;
+
 export { };

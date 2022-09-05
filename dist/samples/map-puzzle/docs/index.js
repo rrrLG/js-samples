@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 // [START maps_map_puzzle]
+
 class PuzzleDemo {
   map_;
   polys_ = [];

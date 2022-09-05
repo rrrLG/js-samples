@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 // [START maps_control_replacement]
+
 let map;
 
 function initMap() {

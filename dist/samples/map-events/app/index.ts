@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+
 const events = [
   "bounds_changed",
   "center_changed",
@@ -69,4 +70,5 @@ declare global {
   }
 }
 window.initMap = initMap;
+
 export { initMap };
